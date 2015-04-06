@@ -11,4 +11,7 @@ a.times{
 puts 'Enter word to search'
 c = gets.chomp
 
-/values/.match('c')
+a.times{
+d = /values[a]/.match(c)
+puts d
+}
